@@ -1,0 +1,695 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"std",
+				"stdbool.h\tstandard header (since c99)"
+			],
+			[
+				"P",
+				"PRO_NAME"
+			],
+			[
+				"Ou",
+				"OUTPUT_PATH"
+			],
+			[
+				"LD",
+				"LD_OPT"
+			],
+			[
+				"Pro",
+				"PRO_DIR"
+			],
+			[
+				"fil",
+				"FILE_TO_LINK"
+			],
+			[
+				"sta",
+				"startup_ARMCM0"
+			],
+			[
+				"src",
+				"SRC_DIR"
+			],
+			[
+				"asm",
+				"ASM_OPT"
+			],
+			[
+				"s",
+				"startup_ARMCM0"
+			],
+			[
+				"S",
+				"SRC_DIR"
+			],
+			[
+				"O",
+				"OUTPUT_PAHT"
+			],
+			[
+				"cc",
+				"CC_OPT"
+			],
+			[
+				"sr",
+				"SRC_DIR"
+			],
+			[
+				"p",
+				"PRO_NAME"
+			],
+			[
+				"out",
+				"OUTPUT_PAHT"
+			],
+			[
+				"Li",
+				"LINKER_FILE"
+			],
+			[
+				"in",
+				"INC_DIR"
+			],
+			[
+				"PRO",
+				"PRO_DIR"
+			],
+			[
+				"CC",
+				"CC"
+			],
+			[
+				"he",
+				"hellofunc"
+			],
+			[
+				"hello",
+				"hellomake"
+			],
+			[
+				"clo",
+				"color"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"button",
+				"button_web"
+			],
+			[
+				"led_",
+				"led_red"
+			],
+			[
+				"t_",
+				"t_led_re"
+			],
+			[
+				"h",
+				"h"
+			],
+			[
+				"client",
+				"clientName"
+			],
+			[
+				"led_re",
+				"led_red_topic"
+			],
+			[
+				"led_red",
+				"led_red"
+			],
+			[
+				"led",
+				"led_red"
+			],
+			[
+				"sub",
+				"subStr"
+			],
+			[
+				"de",
+				"define\tArduino Macro define"
+			],
+			[
+				"bu",
+				"button_process"
+			],
+			[
+				"button_",
+				"button_p"
+			],
+			[
+				"but",
+				"button_temp"
+			],
+			[
+				"print",
+				"printf\tprintf …"
+			],
+			[
+				"clk",
+				"clk10Hz"
+			],
+			[
+				"st",
+				"std_logic"
+			],
+			[
+				"Clk",
+				"Clk10Hz"
+			],
+			[
+				"cou",
+				"count2s"
+			],
+			[
+				"o",
+				"others"
+			],
+			[
+				"co",
+				"count_1Hz"
+			],
+			[
+				"coun",
+				"count_Clk_1Hz"
+			],
+			[
+				"i",
+				"i_Clk"
+			],
+			[
+				"Cl",
+				"Clk_100Hz"
+			],
+			[
+				"down",
+				"downto"
+			],
+			[
+				"do",
+				"downto"
+			],
+			[
+				"r",
+				"i_rst"
+			],
+			[
+				"i_",
+				"i_down_bt"
+			],
+			[
+				"se",
+				"select"
+			],
+			[
+				"dow",
+				"down"
+			],
+			[
+				"chia",
+				"chiatan"
+			],
+			[
+				"p_",
+				"p_count"
+			],
+			[
+				"ena",
+				"ena_led_act"
+			],
+			[
+				"sensor_btn_",
+				"sensor_btn_final"
+			],
+			[
+				"rst",
+				"rst_final"
+			],
+			[
+				"dis",
+				"displayed_number"
+			],
+			[
+				"std_",
+				"std_logic_vector"
+			],
+			[
+				"proc",
+				"process"
+			],
+			[
+				"port",
+				"port\tvhdl-port"
+			],
+			[
+				"delay",
+				"delay_reg"
+			],
+			[
+				"dela",
+				"delay_next"
+			],
+			[
+				"db",
+				"db_next"
+			],
+			[
+				"w",
+				"wait1"
+			],
+			[
+				"del",
+				"delay_reg"
+			],
+			[
+				"btn",
+				"button"
+			],
+			[
+				"db_",
+				"db_next"
+			],
+			[
+				"po",
+				"port\tvhdl-port"
+			],
+			[
+				"lam_he",
+				"lam_hep_xung"
+			],
+			[
+				"b",
+				"buttom"
+			],
+			[
+				"LED_",
+				"LED_out"
+			],
+			[
+				"pr",
+				"pre_Clk"
+			],
+			[
+				"g",
+				"generic\tvhdl-generic"
+			],
+			[
+				"pro",
+				"process"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Inc/hw_stm32f051r8.h",
+			"settings":
+			{
+				"buffer_size": 694,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Lib/sorting_Algorithms/sorting_Algorithms.c",
+			"settings":
+			{
+				"buffer_size": 12789,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/project/stm32f051r8/stm32f0_discovery_sort",
+		"/C/project/stm32f051r8/stm32f0_discovery_sort/Lib",
+		"/C/project/stm32f051r8/stm32f0_discovery_sort/Lib/sorting_Algorithms"
+	],
+	"file_history":
+	[
+		"/C/project/stm32f051r8/stm32f0_discovery_sort/Lib/sorting_Algorithms/sorting_Algorithms.h",
+		"/C/project/stm32f051r8/sort-c/bubble-sort.c",
+		"/C/project/stm32f051r8/stm32f0_discovery_sort/README.md",
+		"/C/project/stm32f051r8/stm32f0_discovery_sort/Inc/sort.h",
+		"/C/project/stm32f051r8/sort-c/Sorting_Algorithms.c",
+		"/C/project/stm32f051r8/sort-c/selection-sort.c",
+		"/C/project/stm32f051r8/sort-c/shell-sort.c",
+		"/C/project/stm32f051r8/sort-c/merge-sort.c",
+		"/C/project/stm32f051r8/sort-c/quick-sort.c",
+		"/C/project/stm32f051r8/sort-c/cocktail-sort.c",
+		"/C/project/stm32f051r8/sort-c/comb-sort.c",
+		"/C/project/stm32f051r8/sort-c/insertion-sort.c",
+		"/C/project/stm32f051r8/sort-c/heap-sort.c",
+		"/C/Users/kilolt/Documents/Arduino/libraries/Button/Button.cpp",
+		"/C/Users/kilolt/Documents/Arduino/libraries/Adafruit_ILI9341/Adafruit_ILI9341.h",
+		"/C/Users/kilolt/Documents/Arduino/libraries/Button/Button.h",
+		"/C/project/stm32f051r8/sort-c/shell-sort",
+		"/C/project/stm32f051r8/stm32f0_discovery_sort/Makefile",
+		"/C/project/stm32f051r8/stm32f0_discovery_sort/Inc/hw_stm32f051r8.h",
+		"/C/project/stm32f051r8/stm32f0_discovery_sort/Inc/heap-sort.c",
+		"/C/project/stm32f051r8/sort-c/quicksort.c",
+		"/C/project/stm32f051r8/sort-c/selection-sort",
+		"/C/project/stm32f051r8/stm32f0_discovery_sort/stm32f0_discovery_sort.sublime-project",
+		"/C/project/make-makefile/make-makefile.sublime-project",
+		"/C/project/make-makefile/hellomake.h",
+		"/C/project/make-makefile/hellomake.c",
+		"/C/project/make-makefile/hellofunc.c",
+		"/C/Users/kilolt/OneDrive/Documents/University/N4/HK2/TKHTN/NHUNGD14DTMT_NHOM7_PROJECT/Tiva123_ILI9431SPI_Demo.c",
+		"/C/Users/kilolt/Desktop/demo.txt",
+		"/C/PROJECT/STM32F051R8/SORT/inc/main.c",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/kilolt/Desktop/hosts",
+		"/C/Users/kilolt/OneDrive/Documents/University/N4/HK2/TKHTN/TivaC123_Test_ILI9431/Tiva123_ILI9431SPI_Demo.c",
+		"/C/Users/kilolt/OneDrive/Documents/University/N4/HK2/PLC/PLC_D14_PROJECT/PLC_D14_.s7p",
+		"/C/Users/kilolt/Downloads/Tiva123_ILI9431SPI_Demo.c",
+		"/G/ISO/Readme.txt",
+		"/C/Users/kilolt/Desktop/mqtt_server/static/remote.html",
+		"/C/Users/kilolt/Desktop/mqtt_server/static/home.html",
+		"/C/Users/kilolt/Desktop/mqtt_server/index.js",
+		"/C/Users/kilolt/Desktop/mqtt_server/static/assets/js/chart_config.js",
+		"/C/Users/kilolt/OneDrive/Documents/dl/Oxygen_Alarm v2/Oxygen_Alarm.c",
+		"/C/Users/kilolt/AppData/Local/Temp/Rar$DIa0.418/main.c",
+		"/C/Users/kilolt/Documents/MATLAB/thcs2.m",
+		"/C/Users/kilolt/AppData/Local/Temp/scp31380/home/pi/mqtt_server/index.js",
+		"/C/Users/kilolt/OneDrive/Documents/IOT/html5/index.html",
+		"/D/PLCSim/Media/PlcSim64/SIMATIC PLCSIM 64.msi",
+		"/C/Users/kilolt/Desktop/esp8266-weather-station-color-DST/New Text Document.txt",
+		"/C/Users/kilolt/OneDrive/Documents/IOT/html5/app.css",
+		"/C/Users/kilolt/AppData/Local/Temp/scp46212/etc/apache2/sites-available/alwayliveinstyle90.com.conf",
+		"/C/Users/kilolt/AppData/Local/Temp/scp46549/etc/apache2/sites-available/default-ssl.conf",
+		"/C/Users/kilolt/AppData/Local/Temp/scp45602/etc/apache2/apache2.conf",
+		"/C/Users/kilolt/AppData/Local/Temp/scp23124/var/www/alwayliveinstyle90.com/public/index.html",
+		"/C/Users/kilolt/AppData/Local/Temp/scp46630/etc/apache2/ports.conf",
+		"/C/Users/kilolt/AppData/Local/Temp/scp44318/etc/apache2/sites-enabled/alwayliveinstyle90.com.conf",
+		"/C/Users/kilolt/AppData/Local/Temp/scp44807/etc/apache2/sites-enabled/000-default.conf",
+		"/C/Users/kilolt/AppData/Local/Temp/scp29448/home/pi/NodeJS_server/nodejs_mysql.js",
+		"/C/Users/kilolt/OneDrive/Documents/IOT/ESP8266/mqtt_esp8266/Node/server.js",
+		"/C/Users/kilolt/OneDrive/Documents/IOT/ESP8266/mqtt_esp8266/Node/static/pages/index.html",
+		"/C/Users/kilolt/OneDrive/Documents/IOT/ESP8266/mqtt_esp8266/Node/static/scripts/clients.js",
+		"/C/Users/kilolt/AppData/Local/Temp/scp28123/home/pi/NodeJS_server/nodejs_mysql",
+		"/C/Users/kilolt/Desktop/k/bieudo/solve.php",
+		"/C/Users/kilolt/Desktop/k/bieudo/static/data.php",
+		"/C/Users/kilolt/OneDrive/Documents/University/N4/HK2/THCS/esp8266_mqtt/esp8266_mqtt.ino",
+		"/C/Users/kilolt/OneDrive/Documents/University/N4/HK2/THCS/app_mqtt_mysql_completed.js",
+		"/C/Users/kilolt/OneDrive/Documents/University/N4/HK2/THCS/server_final.js",
+		"/C/Users/kilolt/OneDrive/Documents/IOT/ESP8266/mqtt_esp8266/Node/device/button/button.ino",
+		"/C/Users/kilolt/OneDrive/Documents/IOT/ESP8266/mqtt_esp8266/Node/device/device.ino",
+		"/C/Users/kilolt/Desktop/Day2/app_mqtt_mysql_completed.js",
+		"/G/esp8266_mqtt.ino",
+		"/C/Users/kilolt/Desktop/THCS/esp8266_mqtt/esp8266_mqtt.ino",
+		"/C/Users/kilolt/AppData/Local/Temp/scp43487/home/pi/NodeJS_server/package-lock.json",
+		"/C/Users/kilolt/AppData/Local/Temp/scp43480/home/pi/NodeJS_server/package.json",
+		"/H/wpa_supplicant.conf",
+		"/G/etc/wpa_supplicant/wpa_supplicant.conf",
+		"/C/Users/kilolt/Desktop/Day2/index.html",
+		"/C/Users/kilolt/Desktop/Day2/server.js",
+		"/C/Users/kilolt/Desktop/Day2/app_mysql.js",
+		"/C/Users/kilolt/Desktop/Day2/app_mqtt_mysql.js",
+		"/C/Users/kilolt/Desktop/Day2/Node/server.js",
+		"/C/Users/kilolt/Desktop/Day2/app_mqtt.js",
+		"/C/Users/kilolt/OneDrive/Documents/University/N4/HK2/TKHTS/D14DTMT_DAS_5/BTL/bo_dem_ll_v2_module.vhd",
+		"/C/Users/kilolt/Desktop/Day2/bieudo/static/data.php",
+		"/C/Users/kilolt/Documents/Arduino/libraries/Button/examples/basic_usage/basic_usage.ino",
+		"/C/Users/kilolt/AppData/Local/Temp/scp13483/home/pi/Templates/nodejsbyvp",
+		"/C/Users/kilolt/OneDrive/Documents/University/N4/HK2/TKHTS/D14DTMT_DAS_5/BTL/bo_dem_ll_v2_tb.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/bo_dem_luu_luong_project/debounce_btn.vhd",
+		"/C/Users/kilolt/OneDrive/Documents/IOT/ESP8266/ĐIỀU KHIỂN LED BẰNG ARDUINO UNO KẾT HỢP ESP8266 QUA   SMARTPHONE/CODE/CODE XU LY CHO ARDUINO-ESP8266.c",
+		"/G/home/kilo/Templates/Node/server.js",
+		"/C/Users/kilolt/OneDrive/Documents/University/N4/HK2/TKHTS/D14DTMT_DAS_5/BTLTHTS/BAITN3/net_map.ucf",
+		"/C/Users/kilolt/OneDrive/Documents/University/N4/HK2/TKHTS/D14DTMT_DAS_5/BTL/net_map.ucf",
+		"/C/Users/kilolt/OneDrive/Documents/University/N4/HK2/TKHTS/D14DTMT_DAS_5/BTLTHTS/BAITN3/UpCounter_3digits.vhd",
+		"/C/Users/kilolt/Downloads/mqtt_sub_22_3_2018.py",
+		"/C/Users/kilolt/Desktop/xilinx/VHDL/test/flsdf/test_led.vhd",
+		"/C/Users/kilolt/OneDrive/Documents/University/N4/HK2/TKHTS/D14DTMT_DAS_5/BTLTHTS/BAITN3/UpCounter_3digits_tb.vhd",
+		"/C/Users/kilolt/Downloads/LED_Blink.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/VHDL/test/flsdf/test_led.ucf",
+		"/C/Users/kilolt/Desktop/xilinx/VHDL/test/flsdf/bo_dem_ll_v2_tb.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/VHDL/test/flsdf/bo_dem_ll_v3_tb.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/bo_dem_ll_v2_module.vhd",
+		"/C/Users/kilolt/OneDrive/Documents/University/N4/HK2/TKHTS/D14DTMT_DAS_5/BTL/bo_dem_ll_v3_module.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/bo_dem_luu_luong_main_module.vhd",
+		"/C/Users/kilolt/OneDrive/Documents/University/N4/HK2/TKHTS/D14DTMT_DAS_5/BTL/debounce_btn.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/counter_4digits.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/debounce_btn.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/bo_dem_ll_v2_module",
+		"/C/Users/kilolt/Desktop/xilinx/BTLTHTS/BAITN3/UpCounter_3digits.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/bo_dem_luu_luong_project/counter_4digits.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/BAI3/CODE.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTHTS/BAITN3/UpCounter_3digits.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/bcd_counter-test-bench/bcd_counter1.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/bo_dem_luu_luong_project/bo_dem_luu_luong_main_module.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/bcd_counter-test-bench/bcd_counter4.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/bcd_counter-test-bench/bcd_counter6.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/bo_dem_luu_luong_project/counter_4digits_tb.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/bcd_counter-test-bench/bcd_counter2.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/bo_dem_luu_luong_project/lam_hep_xung.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/bo_dem_luu_luong_project/bo_dem_luu_luong.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/lam_hep_xung.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/d/debounce_btn.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/d/counter_4digits.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/d/bo_dem_luu_luong_main_module.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/bo_dem_luu_luong.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTL/test/baitaplonso5_module/baitaplonso5_module.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/VHDL/3vp.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/BTHTS/BAITN3/3vp.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/bcd_counter-test-bench/bcd_counter2_tb.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/VHDL/ex_1_42/trafficlight.vhd",
+		"/C/Users/kilolt/Desktop/xilinx/VHDL/ex_1_42/kkk.vhd"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Inc/hw_stm32f051r8.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								640,
+								640
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Lib/sorting_Algorithms/sorting_Algorithms.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1445,
+								1445
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 864.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.stino_build_panel":
+	{
+		"height": 0.0
+	},
+	"output.stino_panel":
+	{
+		"height": 114.0
+	},
+	"pinned_build_system": "",
+	"project": "stm32f0_discovery_sort.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
