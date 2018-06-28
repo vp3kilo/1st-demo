@@ -71,6 +71,7 @@ void enabled_clock(void)
 	tempreg = read_reg(RCC_AHBENR, ~(1 << 19));
 	tempreg = tempreg | (1 << 19);
 	write_reg(RCC_AHBENR, tempreg);
+	write_reg(RCC_AHBENR, read_reg(RCC_AHBENR, ~(1 << 19)) | (1 << 19));
 }
 
 void init_pin(void)
@@ -80,6 +81,7 @@ void init_pin(void)
 	tempreg = read_reg(GPIOC_MODER, ~(0x03 << 18));
 	tempreg = tempreg | (GPIO_MODER_OUTPUT << 18);
 	write_reg(GPIOC_MODER, tempreg);
+	write_reg(GPIOC_MODER, read_reg(GPIOC_MODER, ~(0x03 << 18))|(GPIO_MODER_OUTPUT << 18));
 }
 
 void led_on(unsigned char pin_number)
