@@ -1,4 +1,3 @@
-
 #include "hw_stm32f051r8.h"
 
 
@@ -55,10 +54,8 @@ void SysTick_Handler(void)
 void delay(unsigned int timeout)
 {
     unsigned int t1, t2;
-    for (t1 = 0; t1 < timeout; t1++)
     for (t1 = timeout; t1 > 0; --t1)
     {
-        for (t2 = 0; t2 < 0xFFF; t2++)
         for (t2 = 0xFFF; t2 > 0; --t2)
         {
           asm(" nop");
