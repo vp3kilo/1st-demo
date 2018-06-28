@@ -56,8 +56,10 @@ void delay(unsigned int timeout)
 {
     unsigned int t1, t2;
     for (t1 = 0; t1 < timeout; t1++)
+    for (t1 = timeout; t1 > 0; --t1)
     {
         for (t2 = 0; t2 < 0xFFF; t2++)
+        for (t2 = 0xFFF; t2 > 0; --t2)
         {
           asm(" nop");
         }
@@ -66,21 +68,11 @@ void delay(unsigned int timeout)
 
 void enabled_clock(void)
 {
-	unsigned int tempreg;
-	/* set mode led ld3 */
-	tempreg = read_reg(RCC_AHBENR, ~(1 << 19));
-	tempreg = tempreg | (1 << 19);
-	write_reg(RCC_AHBENR, tempreg);
 	write_reg(RCC_AHBENR, read_reg(RCC_AHBENR, ~(1 << 19)) | (1 << 19));
 }
 
 void init_pin(void)
 {
-	unsigned int tempreg;
-	/* set mode led ld3 */
-	tempreg = read_reg(GPIOC_MODER, ~(0x03 << 18));
-	tempreg = tempreg | (GPIO_MODER_OUTPUT << 18);
-	write_reg(GPIOC_MODER, tempreg);
 	write_reg(GPIOC_MODER, read_reg(GPIOC_MODER, ~(0x03 << 18))|(GPIO_MODER_OUTPUT << 18));
 }
 
