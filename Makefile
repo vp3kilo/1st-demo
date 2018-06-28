@@ -28,17 +28,19 @@ ASM_OPT			:= -march=armv6-m -mcpu=cortex-m0 -c -mthumb
 LD_OPT			:= -T $(LINKER_FILE) -Map $(OUTPUT_PATH)/$(PROJ_NAME).map $(FILE_TO_LINK)
 
 $(OUTPUT_PATH)/main.o: $(SRC_DIR)/main.c
+	@echo "____________________________________________________________________________"
 	@echo "Compile $(SRC_DIR)/main.c file"
 	$(CC) $(CC_OPT) $(SRC_DIR)/main.c -o $(OUTPUT_PATH)/main.o
 
 $(OUTPUT_PATH)/startup_ARMCM0.o: $(SRC_DIR)/startup_ARMCM0.s
-	@echo "Compile $(SRC_DIR)/startup_ARMCM0.s file"
+	@echo "____________________________________________________________________________"
+	@echo  "Compile $(SRC_DIR)/startup_ARMCM0.s file"
 	$(ASM) $(ASM_OPT) $(SRC_DIR)/startup_ARMCM0.s -o $(OUTPUT_PATH)/startup_ARMCM0.o
 
 build: $(FILE_TO_LINK) $(LINKER_FILE)
-	@echo "Link object files to create new binary image ($(PROJ_NAME).elf)"
+	@echo "____________________________________________________________________________"
+	@echo  "Link object files to create new binary image ($(PROJ_NAME).elf)"
 	$(LD) $(LD_OPT) -o $(OUTPUT_PATH)/$(PROJ_NAME).elf
 	
 clean:
 	@rm -rf $(OUTPUT_PATH)/*
-
