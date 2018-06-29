@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"led",
+				"led_stt"
+			],
+			[
+				"le",
+				"led_stt"
+			],
+			[
+				"s",
+				"state_idr_reg"
+			],
+			[
 				"std",
 				"stdbool.h\tstandard header (since c99)"
 			],
@@ -38,10 +50,6 @@
 			[
 				"asm",
 				"ASM_OPT"
-			],
-			[
-				"s",
-				"startup_ARMCM0"
 			],
 			[
 				"S",
@@ -129,10 +137,6 @@
 			],
 			[
 				"led_red",
-				"led_red"
-			],
-			[
-				"led",
 				"led_red"
 			],
 			[
@@ -316,13 +320,19 @@
 	"buffers":
 	[
 		{
-			"contents": "\n#ifndef __HW_STM32F051R8_H__\n#define __HW_STM32F051R8_H__\n\n\n#define write_reg(addr, value)    *((unsigned long int *)(addr)) = value\n#define read_reg(addr, mask)      *((unsigned long int *)(addr)) & (mask)\n\n/* RCC - clock */\n#define BASE_ADDR_RCC\t\t0x40021000u\n#define RCC_AHBENR\t\t\t(BASE_ADDR_RCC + 0x14)\n\n/* GPIO */\n#define BASE_ADDR_GPIO\t\t0x48000800u\n#define GPIOC_MODER\t\t\t(BASE_ADDR_GPIO + 0x00u)\n#define GPIO_MODER_INPUT\t0x00u\n#define GPIO_MODER_OUTPUT\t0x01u\n#define GPIO_MODER_ALT\t\t0x02u\n\n#define GPIOC_BSRR\t\t\t(BASE_ADDR_GPIO + 0x18u)\n\n\n\n/* Led LD3 - PC9 */\n#define LD3_PIN\t\t\t\t9\n\n/* end file */\n#endif /* __HW_STM32F051R8_H__ */\n\n",
 			"file": "Inc/hw_stm32f051r8.h",
-			"file_size": 724,
-			"file_write_time": 131742949922392159,
 			"settings":
 			{
-				"buffer_size": 636,
+				"buffer_size": 818,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ReadMe/ReadMe.txt",
+			"settings":
+			{
+				"buffer_size": 4586,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -331,16 +341,8 @@
 			"file": "Src/main.c",
 			"settings":
 			{
-				"buffer_size": 1455,
+				"buffer_size": 1944,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Output/stm32f0_discovery_sort.map",
-			"settings":
-			{
-				"buffer_size": 4749,
 				"line_ending": "Windows"
 			}
 		},
@@ -365,7 +367,7 @@
 			"file": "Makefile",
 			"settings":
 			{
-				"buffer_size": 1618,
+				"buffer_size": 1934,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -438,6 +440,8 @@
 	],
 	"file_history":
 	[
+		"/C/project/stm32f051r8/stm32f0_discovery_sort/ReadMe/ReadMe.txt.rej",
+		"/C/project/stm32f051r8/stm32f0_discovery_sort/Output/stm32f0_discovery_sort.map",
 		"/D/my ST/STM32F051R8/STM32Cube_FW_F0_V1.9.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h",
 		"/C/project/stm32f051r8/stm32f0_discovery_sort/Src/main.c",
 		"/C/project/stm32f051r8/stm32f0_discovery_sort/Lib/sorting_Algorithms/sorting_Algorithms.h",
@@ -563,13 +567,11 @@
 		"/C/Users/kilolt/Desktop/xilinx/BTL/d/bo_dem_luu_luong_main_module.vhd",
 		"/C/Users/kilolt/Desktop/xilinx/BTL/bo_dem_luu_luong.vhd",
 		"/C/Users/kilolt/Desktop/xilinx/BTL/test/baitaplonso5_module/baitaplonso5_module.vhd",
-		"/C/Users/kilolt/Desktop/xilinx/VHDL/3vp.vhd",
-		"/C/Users/kilolt/Desktop/xilinx/BTHTS/BAITN3/3vp.vhd",
-		"/C/Users/kilolt/Desktop/xilinx/bcd_counter-test-bench/bcd_counter2_tb.vhd"
+		"/C/Users/kilolt/Desktop/xilinx/VHDL/3vp.vhd"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -583,6 +585,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"+"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -590,6 +593,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -609,15 +613,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 636,
+						"buffer_size": 818,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								307,
-								307
+								321,
+								321
 							]
 						],
 						"settings":
@@ -628,24 +632,53 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Src/main.c",
+					"file": "ReadMe/ReadMe.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1455,
+						"buffer_size": 4586,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								812,
-								812
+								1931,
+								1931
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 604.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Src/main.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								215,
+								215
 							]
 						],
 						"settings":
@@ -655,40 +688,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 639.0,
+						"translation.y": 969.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Output/stm32f0_discovery_sort.map",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4749,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -717,7 +720,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -746,7 +749,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -755,15 +758,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1618,
+						"buffer_size": 1934,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1457,
-								1457
+								1770,
+								1770
 							]
 						],
 						"settings":
@@ -771,10 +774,10 @@
 							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 148.0,
+						"translation.y": 513.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -801,7 +804,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8404.0,
+						"translation.y": 8220.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
@@ -844,7 +847,7 @@
 	},
 	"input":
 	{
-		"height": 37.0
+		"height": 40.0
 	},
 	"layout":
 	{
