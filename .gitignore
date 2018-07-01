@@ -7,6 +7,9 @@
 *.obj
 *.elf
 
+# Object project
+*.jdebug
+
 # Linker output
 *.ilk
 *.map

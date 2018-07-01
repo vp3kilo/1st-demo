@@ -1,6 +1,6 @@
 // C sorting algorithms
 // A collection of sorting algorithms written in C
-#include <stdio.h>
+#include <sorting_Algorithms.h>
 // A utility function to swap two elements
 // Hàm đổi chỗ, sử dụng XOR để không dùng biến tạm
 void swap (int *x, int *y) {
@@ -12,14 +12,14 @@ void swap (int *x, int *y) {
 }
 
 /* Function to print an array */
-void printArray(int arr[], int size)
-{
-    for (int i = 0; i < size; ++i)
-        if(i != size - 1)
-        	printf("%d ", arr[i]);
-        else
-        	printf("%d", arr[i]);
-}
+// void printArray(int arr[], int size)
+// {
+//     for (int i = 0; i < size; ++i)
+//         if(i != size - 1)
+//         	printf("%d ", arr[i]);
+//         else
+//         	printf("%d", arr[i]);
+// }
 
 /*
 ***************Bubble sort***************
@@ -449,20 +449,20 @@ void shellSort(int arr[], int n)
 }
 
 /* Driver program to test above functions */
-int main()
-{
-    int arr[] = {1, 26, 28, 82, 6, 44, 30, 53, 50, 99, 91, 63, 40, 74, 36, 92, 50, 69, 36, 82, 68, 99, 74, 16, 73, 15, 80, 5, 54, 79, 51, 30, 84, 50, 86, 81, 18, 3, 60, 99, 41, 25, 93, 93, 1, 36, 52, 57, 91, 63, 69, 42, 53, 43, 87, 16, 69, 33, 82, 16, 31, 23, 66, 29, 5, 38, 17, 51, 86, 39, 71, 19, 32, 36, 28, 13, 52, 98, 65, 55, 29, 32, 44, 59, 13, 77, 94, 84, 31, 94, 22, 61, 3, 83, 48, 32, 24, 35, 59, 69};
-    int n = sizeof(arr)/sizeof(arr[0]);
-    // bubbleSort(arr, n);
-    // cocktailSort(arr, n);
-    // combSort(arr, n);
-    // heapSort(arr, n);
-    // insertionSort(arr, n);
-    // mergeSort(arr, 0, n - 1);
-    // quickSort(arr, 0, n-1);
-    // shellSort(arr, n);
-    // selectionSort(arr, n);
-    printf("\nSorted array is: \n");
-    printArray(arr, n);
-    return 0;
-}
+// int main()
+// {
+//     int arr[] = {1, 26, 28, 82, 6, 44, 30, 53, 50, 99, 91, 63, 40, 74, 36, 92, 50, 69, 36, 82, 68, 99, 74, 16, 73, 15, 80, 5, 54, 79, 51, 30, 84, 50, 86, 81, 18, 3, 60, 99, 41, 25, 93, 93, 1, 36, 52, 57, 91, 63, 69, 42, 53, 43, 87, 16, 69, 33, 82, 16, 31, 23, 66, 29, 5, 38, 17, 51, 86, 39, 71, 19, 32, 36, 28, 13, 52, 98, 65, 55, 29, 32, 44, 59, 13, 77, 94, 84, 31, 94, 22, 61, 3, 83, 48, 32, 24, 35, 59, 69};
+//     int n = sizeof(arr)/sizeof(arr[0]);
+//     // bubbleSort(arr, n);
+//     // cocktailSort(arr, n);
+//     // combSort(arr, n);
+//     // heapSort(arr, n);
+//     // insertionSort(arr, n);
+//     // mergeSort(arr, 0, n - 1);
+//     // quickSort(arr, 0, n-1);
+//     // shellSort(arr, n);
+//     // selectionSort(arr, n);
+//     printf("\nSorted array is: \n");
+//     printArray(arr, n);
+//     return 0;
+// }
