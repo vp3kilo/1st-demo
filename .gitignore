@@ -9,6 +9,7 @@
 
 # Object project
 *.jdebug
+*.user
 
 # Linker output
 *.ilk

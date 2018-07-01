@@ -1,8 +1,9 @@
 
 #ifndef __HW_STM32F051R8_H__
 #define __HW_STM32F051R8_H__
-#include <../Lib/sorting_Algorithms/sorting_Algorithms.h>
 
+#include <../Lib/delay/delay.h>
+#include <../Lib/sorting_Algorithms/sorting_Algorithms.h>
 #define write_reg(addr, value)    *((unsigned long int *)(addr)) = value
 #define read_reg(addr, mask)      *((unsigned long int *)(addr)) & (mask)
 

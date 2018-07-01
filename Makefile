@@ -9,6 +9,7 @@ PRO_DIR		:= .
 PROJ_NAME	:= stm32f0_discovery_sort
 OUTPUT_PATH := $(PRO_DIR)/Output
 
+DELAY_DIR	:= $(PRO_DIR)/Lib/delay
 INC_DIR		:= $(PRO_DIR)/Inc
 SRC_DIR 	:= $(PRO_DIR)/Src
 LINKER_FILE	:= $(PRO_DIR)/Linker/stm32f0_discovery.ld
@@ -21,7 +22,7 @@ ASM				:= $(COMPILER_DIR)/bin/$(PREFIX_GCC_COMPILER)-as
 OBJCPY			:= $(COMPILER_DIR)/bin/$(PREFIX_GCC_COMPILER)-objcopy
 LD				:= $(COMPILER_DIR)/bin/$(PREFIX_GCC_COMPILER)-ld
 
-FILE_TO_LINK	:= $(OUTPUT_PATH)/main.o $(OUTPUT_PATH)/startup_ARMCM0.o
+FILE_TO_LINK	:= $(OUTPUT_PATH)/main.o $(OUTPUT_PATH)/startup_ARMCM0.o $(OUTPUT_PATH)/delay.o
 
 # Compiler option
 CC_OPT			:= -march=armv6-m -mcpu=cortex-m0 -c -O0 -g -mthumb -I$(INC_DIR)
@@ -37,6 +38,11 @@ $(OUTPUT_PATH)/startup_ARMCM0.o: $(SRC_DIR)/startup_ARMCM0.s
 	@echo "____________________________________________________________________________"
 	@echo  "Compile $(SRC_DIR)/startup_ARMCM0.s file"
 	$(ASM) $(ASM_OPT) $(SRC_DIR)/startup_ARMCM0.s -o $(OUTPUT_PATH)/startup_ARMCM0.o
+
+$(OUTPUT_PATH)/delay.o: $(DELAY_DIR)/delay.c
+	@echo "____________________________________________________________________________"
+	@echo  "Compile $(DELAY_DIR)/delay.c file"
+	$(CC) $(CC_OPT) $(DELAY_DIR)/delay.c -o $(OUTPUT_PATH)/delay.o
 
 build: $(FILE_TO_LINK) $(LINKER_FILE)
 	@echo "____________________________________________________________________________"

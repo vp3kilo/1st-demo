@@ -2,7 +2,6 @@
 unsigned int ledStatus = 0;
 void gpioHigh(unsigned char pinNum);
 void gpioLow(unsigned char pinNum);
-void delay(unsigned int time);
 /*************************************************************************************************/
 void Reserved_IRQHandler(void){
   while(1)
@@ -108,16 +107,6 @@ void gpioHigh(unsigned char pinNum){
 
 void gpioLow(unsigned char pinNum){
 	write_reg(GPIOC_BSRR, 1u << (pinNum + 16u));
-}
-void delay(unsigned int time){
-    unsigned int a, b;
-    for (a = time; a > 0; --a)
-    {
-        for (b = 0xFFF; b > 0; --b)
-        {
-          asm(" nop");
-        }
-    }
 }
 void main(void)
 {
