@@ -14,7 +14,7 @@ INC_DIR		:= $(PRO_DIR)/Inc
 SRC_DIR 	:= $(PRO_DIR)/Src
 LINKER_FILE	:= $(PRO_DIR)/Linker/stm32f0_discovery.ld
 
-COMPILER_DIR 	:= C:/GCC_CPL/7-2018-q2-update
+COMPILER_DIR 	:= C:/GCC_CPL/7_2017-q4-major
 
 PREFIX_GCC_COMPILER	:= arm-none-eabi
 CC				:= $(COMPILER_DIR)/bin/$(PREFIX_GCC_COMPILER)-gcc
