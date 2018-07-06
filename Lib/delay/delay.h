@@ -1,4 +1,4 @@
 #ifndef __DELAY_H
 #define __DELAY_H
-extern void delay(unsigned int time);
+extern void Delay(unsigned int time);
 #endif /* __DELAY_H */

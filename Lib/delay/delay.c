@@ -1,6 +1,6 @@
 #include "delay.h"
 
-void delay(unsigned int time){
+void Delay(unsigned int time){
     unsigned int a, b;
     for (a = time; a > 0; --a)
     {

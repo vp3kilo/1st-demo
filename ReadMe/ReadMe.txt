@@ -1,4 +1,3 @@
-
 A. Lập trình I/O:
 1. Mục đích:
 	- hiểu về lập trình Input/Output digital trên một chân của MCU
@@ -38,6 +37,10 @@ A. Lập trình I/O:
 			--> một số option thiết lập cho pin (pull-up/down)
 		-> Trình tự điều khiển ngoại vi (trình tự ghi giá trị tới thanh ghi)
 		-> Triển khai phương pháp/thuật toán để ứng dụng viết chương trình
+
+***********************************************************************************************************
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+***********************************************************************************************************
 
 B. NVIC (Nested Vectored Interrupt Controller):
 
@@ -80,6 +83,10 @@ Một số lỗi có thể xảy ra với interrupt, cách thức debug:
 
 - Cách thức để kiểm tra
 	-> Kiểm tra xem cờ pending của ngoại vi + NVIC đã được bật chưa => kết luận luôn là có thể core đang bị sai
+
+***********************************************************************************************************
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+***********************************************************************************************************
 
 C. USART (Universal synchronous asynchronous receiver transmitter)
 
@@ -124,3 +131,33 @@ C. USART (Universal synchronous asynchronous receiver transmitter)
 
 3. Phụ lục
 3.1. Driver cho PL2303: làm theo hướng dẫn theo link http://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/92/20/prolific-usb-to-serial-fix-official-solution-to-code-10-error
+
+***********************************************************************************************************
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+***********************************************************************************************************
+
+D. System timer (Systick)
+
+1. Danh sánh những module liên quan:
+- Clock (RCC):
+	-> Tính toán giá trị clock chính xác cấp cho System Timer (Systick)
+- System Timer:
+	-> khởi tạo module.
+	-> viết hàm start/get_state
+- NVIC:
+	-> khởi tạo và cho phép ngắt của Systick
+	-> interrupt handler
+
+2. System Timer:
+2.1. Khởi tạo:
+- Disable systick
+- Lựa chọn source clock cho Systick
+- Set giá trị bằng 0 cho SYST_SCR register
+
+2.2. Start timer:
+- Ghi giá trị cho thanh ghi reload
+- Ghi giá trị bằng 0 cho current value register
+- Ghi 1 tới bit enable Systick
+
+2.3. Kiểm tra trạng thái của cờ tràn
+- đọc giá trị bit COUNTFLAG trong thanh ghi SYST_CSR
